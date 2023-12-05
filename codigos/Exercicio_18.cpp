@@ -7,7 +7,9 @@
 int main() {
     
     srand(time(NULL));
-    int num = rand() % 100 + 1;
+
+    int num = rand() % 1000 + 1;
+
     std::cout << num << std::endl;
 
     return 0;
